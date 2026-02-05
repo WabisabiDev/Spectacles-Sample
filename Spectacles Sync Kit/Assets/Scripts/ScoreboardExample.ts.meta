@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/66bf8bc3-327c-4790-9ab1-026b3d2383bf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9adae527-8496-4d3c-ae1e-5a646883a289
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9adae527-8496-4d3c-ae1e-5a646883a289
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cf1ae632-6200-45ca-9c62-61201ba3b415
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/cf1ae632-6200-45ca-9c62-61201ba3b415>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9b89d2e0-27d6-4309-9563-097708b3f71d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    scoreText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text scoreText

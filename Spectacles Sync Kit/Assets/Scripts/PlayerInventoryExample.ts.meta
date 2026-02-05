@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/68f28258-07f3-4fcd-9f4f-2b5e86fc8a7d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 81f8e563-fb60-4527-bab8-3fef9a25971d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 81f8e563-fb60-4527-bab8-3fef9a25971d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 88167ce0-47ce-486a-b1cf-81fd5a89b48c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/88167ce0-47ce-486a-b1cf-81fd5a89b48c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: faf84815-60e8-4836-9504-badde45167a6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraTarget: false
+    localStoreManager: false
+    objectATag: false
+    objectAUI: false
+    objectBTag: false
+    objectBUI: false
+    userTag: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - userTag: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      localStoreManager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      objectAUI: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      objectATag: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      objectBUI: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      objectBTag: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      cameraTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text userTag
+    - // @input AssignableType localStoreManager
+    - // @input Component.Text objectAUI
+    - // @input Component.Text objectATag
+    - // @input Component.Text objectBUI
+    - // @input Component.Text objectBTag
+    - // @input SceneObject cameraTarget

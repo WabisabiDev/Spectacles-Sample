@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/942d5e46-a3f4-45cd-a2c3-801be449156e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> aa96c2c7-cff9-4ea6-a7ce-0940cbdad1c8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> aa96c2c7-cff9-4ea6-a7ce-0940cbdad1c8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 12a8a474-dc54-4529-b7a6-81e356e33df0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/12a8a474-dc54-4529-b7a6-81e356e33df0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d7f4e6fa-e604-404b-a713-a5dd9540d714
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    physicsBody: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - physicsBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.BodyComponent physicsBody {"hint":"This is the body component that will provide the physics calculations."}'
