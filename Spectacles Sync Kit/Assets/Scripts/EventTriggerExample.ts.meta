@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/500787f6-062c-485b-8f47-8e889925ce43>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 715542a2-199e-47a1-83f7-d2b843f49187
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 715542a2-199e-47a1-83f7-d2b843f49187
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ec7c67db-020f-44d3-ae7f-4e1c41969cb4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ec7c67db-020f-44d3-ae7f-4e1c41969cb4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8be6ae4c-79ee-48bf-bf05-efd17589371b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    nameOfTrigger: false
+    scoreboard: false
+    trigger: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - trigger: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      nameOfTrigger: ""
+      scoreboard: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.BodyComponent trigger
+    - // @input string nameOfTrigger
+    - // @input AssignableType scoreboard

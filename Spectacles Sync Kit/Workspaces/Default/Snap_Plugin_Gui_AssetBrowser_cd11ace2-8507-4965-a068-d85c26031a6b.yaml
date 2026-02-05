@@ -1,12 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 701
+    size: 700
     values:
-      - ""
       - Echopark.hdr
       - LSTween.lspkg
       - LSTween.lspkg/package.native
+      - Scripts/InteractablePhysicsObject.ts
+      - Scripts/SyncedHandVisual.ts
       - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets
       - SpectaclesInteractionKit.lspkg/Assets/Audio
@@ -429,7 +430,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/VersionNumber.ts
       - SpectaclesInteractionKit.lspkg/package.native
       - SpectaclesInteractionKit.lspkg/tsconfig.json
-      - SpectaclesSyncKit.lspkg
       - SpectaclesSyncKit.lspkg/Assets
       - SpectaclesSyncKit.lspkg/Assets/Animations
       - SpectaclesSyncKit.lspkg/Assets/Animations/Scene.animationAsset
@@ -445,7 +445,6 @@ CollapsedEntities:
       - SpectaclesSyncKit.lspkg/Assets/Shaders
       - SpectaclesSyncKit.lspkg/Assets/Shaders/Arrow.ss_graph
       - SpectaclesSyncKit.lspkg/Assets/Shaders/Checkmark.ss_graph
-      - SpectaclesSyncKit.lspkg/Components
       - SpectaclesSyncKit.lspkg/Components/Instantiator.ts
       - SpectaclesSyncKit.lspkg/Components/SyncHelpers
       - SpectaclesSyncKit.lspkg/Components/SyncHelpers/DisplayStorageProperty.ts
