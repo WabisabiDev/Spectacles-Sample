@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/bc0d443a-c869-4351-80ef-50953eb23f53>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> aa360307-a1da-4d7a-bd1b-c9620758ce52
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> aa360307-a1da-4d7a-bd1b-c9620758ce52
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 025b28d9-ff97-4491-b3c9-c6eb2223e84e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/025b28d9-ff97-4491-b3c9-c6eb2223e84e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: be72849a-f9d5-4d2e-ab9c-4cf043170c6d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    randomizedText: false
+    rollButton: false
+    rollButtonText: false
+    root: false
+    selectionButton: false
+    valueText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      randomizedText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      valueText: !<reference.Text[]>
+        []
+      selectionButton: !<MappingBased.AssignableType[]>
+        []
+      rollButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      rollButtonText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject root
+    - // @input Component.Text randomizedText
+    - "// @input Component.Text[] valueText"
+    - "// @input AssignableType[] selectionButton"
+    - // @input AssignableType_1 rollButton
+    - // @input Component.Text rollButtonText
