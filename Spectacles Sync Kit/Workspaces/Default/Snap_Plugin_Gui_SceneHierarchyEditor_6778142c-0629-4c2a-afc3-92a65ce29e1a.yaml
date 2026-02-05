@@ -12,6 +12,7 @@ CollapsedEntities:
       - 77bfd93a-fe30-4b51-ac45-0c3ed94bcbeb
       - 78daa823-3bc4-4f79-ae12-53881ab619dc
       - 85f11a82-c830-4859-99d3-4e589285e550
+      - 8dd67d03-d9df-41f1-aa98-6e49860c3240
       - 8f5a8ae0-9f67-4696-a735-0c26bacd944c
       - a85a9b78-abbf-4914-a8ca-bb4392e1c245
       - a9118024-ddd9-4904-9cbc-63f8ae297d08
@@ -20,7 +21,6 @@ CollapsedEntities:
       - c7a1085b-9c5c-44cf-9a0f-23ec62dac4b9
       - ca971479-bd59-4f18-8313-9fdc21766871
       - d5a8bcc9-bc3f-4a5d-b427-5819c940dbda
-      - e2e2c8e8-de6d-44ee-bc3a-29a730aaf275
   options: 4
 PinnedEntities:
   type: uuids
