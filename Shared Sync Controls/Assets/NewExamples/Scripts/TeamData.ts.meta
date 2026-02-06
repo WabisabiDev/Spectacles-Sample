@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/17dfd325-6e3d-4b93-95e1-ddf5ad495b12>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a54841f6-f7a8-4e13-84bb-1d4bc157b934
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a54841f6-f7a8-4e13-84bb-1d4bc157b934
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e869a141-ffee-4316-8103-6dbfe13a0f6b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e869a141-ffee-4316-8103-6dbfe13a0f6b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4e5fec5e-53e3-4421-89db-75e018e5d98d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blueCount: false
+    blueJoin: false
+    blueLeave: false
+    cameraTarget: false
+    maxPlayersPerTeam: false
+    redCount: false
+    redJoin: false
+    redLeave: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - maxPlayersPerTeam: !<float> 0.000000
+      cameraTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      redCount: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      redJoin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      redLeave: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      blueCount: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      blueJoin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      blueLeave: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float maxPlayersPerTeam
+    - // @input SceneObject cameraTarget
+    - // @input Component.Text redCount
+    - // @input SceneObject redJoin
+    - // @input SceneObject redLeave
+    - // @input Component.Text blueCount
+    - // @input SceneObject blueJoin
+    - // @input SceneObject blueLeave

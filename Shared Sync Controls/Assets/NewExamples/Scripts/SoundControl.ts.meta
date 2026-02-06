@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/d2a306bb-03f8-442b-9cea-2a136be3b5ad>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4f52fe1b-eae1-495a-8ec9-364bd6fe63cd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4f52fe1b-eae1-495a-8ec9-364bd6fe63cd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> db9ecdf0-0408-4dc8-bd10-b1b0424c56f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/db9ecdf0-0408-4dc8-bd10-b1b0424c56f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4e5fec5e-53e3-4421-89db-75e018e5d98d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    manager: false
+    muteButton: false
+    muteButtonText: false
+    volumeSlider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - manager: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      volumeSlider: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      muteButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      muteButtonText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType manager
+    - // @input AssignableType_1 volumeSlider
+    - // @input AssignableType_2 muteButton
+    - // @input Component.Text muteButtonText
