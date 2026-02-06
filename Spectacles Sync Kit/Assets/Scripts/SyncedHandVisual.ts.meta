@@ -1,0 +1,160 @@
+- !<AssetImportMetadata/6c1bb470-68e5-49cf-9f1b-f60b7a1f29db>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b6a04c94-e0a7-497e-8fa3-97750a4c29c5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b6a04c94-e0a7-497e-8fa3-97750a4c29c5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8d73c457-bbed-4e7d-a293-19e7f27fd912
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8d73c457-bbed-4e7d-a293-19e7f27fd912>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d47b1544-f45d-4f6a-b98e-554d6e18b2ef
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoJointMapping: false
+    customNetworkId: false
+    handMesh: false
+    handType: false
+    handVisual: false
+    indexKnuckle: false
+    indexMidJoint: false
+    indexTip: false
+    indexToWrist: false
+    indexUpperJoint: false
+    interpolationTarget: false
+    middleKnuckle: false
+    middleMidJoint: false
+    middleTip: false
+    middleToWrist: false
+    middleUpperJoint: false
+    networkIdTypeString: false
+    persistenceString: false
+    pinkyKnuckle: false
+    pinkyMidJoint: false
+    pinkyTip: false
+    pinkyToWrist: false
+    pinkyUpperJoint: false
+    ringKnuckle: false
+    ringMidJoint: false
+    ringTip: false
+    ringToWrist: false
+    ringUpperJoint: false
+    root: false
+    scaleSyncString: false
+    sendsPerSecondLimit: false
+    thumbBaseJoint: false
+    thumbKnuckle: false
+    thumbMidJoint: false
+    thumbTip: false
+    thumbToWrist: false
+    useSmoothing: false
+    wrist: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handType: ""
+      handVisual: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      root: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      autoJointMapping: true
+      wrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbToWrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbBaseJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbKnuckle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbMidJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexToWrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexKnuckle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexMidJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexUpperJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      middleToWrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      middleKnuckle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      middleMidJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      middleUpperJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      middleTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringToWrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringKnuckle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringMidJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringUpperJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinkyToWrist: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinkyKnuckle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinkyMidJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinkyUpperJoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinkyTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      networkIdTypeString: objectId
+      customNetworkId: enter_unique_id
+      scaleSyncString: Location
+      persistenceString: Session
+      sendsPerSecondLimit: 10
+      useSmoothing: false
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string handType {"hint":"Specifies which hand (Left or Right) this visual representation tracks and renders.", "widget":"combobox", "values":[{"label":"Left", "value":"left"}, {"label":"Right", "value":"right"}]}'
+    - "// @input SceneObject handVisual {\"hint\":\"Reference to the parent SceneObject that contains both the hand's rig and mesh.\"}"
+    - '// @input Component.RenderMeshVisual handMesh {"hint":"Reference to the RenderMeshVisual of the full hand mesh."}'
+    - "// @input SceneObject root {\"hint\":\"Reference to the parent SceneObject that contains both the hand's rig and mesh.\"}"
+    - "// @input bool autoJointMapping = true {\"hint\":\"When enabled, the system will automatically map tracking data to the hand model's joints. Disable only if you need manual control over individual joint assignments.\"}"
+    - '// @ui {"widget":"group_start", "label":"Joint Setup", "showIf":"autoJointMapping", "showIfValue":false}'
+    - // @input SceneObject wrist
+    - // @input SceneObject thumbToWrist
+    - // @input SceneObject thumbBaseJoint
+    - // @input SceneObject thumbKnuckle
+    - // @input SceneObject thumbMidJoint
+    - // @input SceneObject thumbTip
+    - // @input SceneObject indexToWrist
+    - // @input SceneObject indexKnuckle
+    - // @input SceneObject indexMidJoint
+    - // @input SceneObject indexUpperJoint
+    - // @input SceneObject indexTip
+    - // @input SceneObject middleToWrist
+    - // @input SceneObject middleKnuckle
+    - // @input SceneObject middleMidJoint
+    - // @input SceneObject middleUpperJoint
+    - // @input SceneObject middleTip
+    - // @input SceneObject ringToWrist
+    - // @input SceneObject ringKnuckle
+    - // @input SceneObject ringMidJoint
+    - // @input SceneObject ringUpperJoint
+    - // @input SceneObject ringTip
+    - // @input SceneObject pinkyToWrist
+    - // @input SceneObject pinkyKnuckle
+    - // @input SceneObject pinkyMidJoint
+    - // @input SceneObject pinkyUpperJoint
+    - // @input SceneObject pinkyTip
+    - '// @ui {"widget":"group_end"}'
+    - '// @input string networkIdTypeString = "objectId" {"label":"Network Id Type", "widget":"combobox", "values":[{"label":"Object Id", "value":"objectId"}, {"label":"Custom", "value":"custom"}]}'
+    - '// @input string customNetworkId = "enter_unique_id" {"showIf":"networkIdTypeString", "showIfValue":"custom"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Sync Settings"}'
+    - '// @input string scaleSyncString = "Location" {"label":"Scale Sync", "widget":"combobox", "values":[{"label":"None", "value":"None"}, {"label":"Location", "value":"Location"}, {"label":"Local", "value":"Local"}, {"label":"World", "value":"World"}]}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string persistenceString = "Session" {"label":"Persistence", "widget":"combobox", "values":[{"label":"Ephemeral", "value":"Ephemeral"}, {"label":"Owner", "value":"Owner"}, {"label":"Session", "value":"Session"}, {"label":"Persist", "value":"Persist"}]}'
+    - '// @input int sendsPerSecondLimit = "10"'
+    - '// @input boolean useSmoothing = "false"'
+    - '// @input float interpolationTarget = "-0.25" {"showIf":"useSmoothing", "showIfValue":true}'

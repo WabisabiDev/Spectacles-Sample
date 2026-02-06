@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/c2752186-9949-4e50-a52b-e7db9dfc2d93>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8b4c4ac8-6a10-4276-8507-98634ba6aa38
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8b4c4ac8-6a10-4276-8507-98634ba6aa38
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 23f65ba1-eed5-4527-908b-618be3561a8c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/23f65ba1-eed5-4527-908b-618be3561a8c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d865ee30-4a4a-4b92-a379-581d33c48c10
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cloudStorageModule: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cloudStorageModule: !<reference.CloudStorageModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.CloudStorageModule cloudStorageModule
