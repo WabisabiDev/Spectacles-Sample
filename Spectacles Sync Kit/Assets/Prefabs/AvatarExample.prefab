@@ -1,0 +1,197 @@
+- !<ObjectPrefab/97392044-a9bd-45bb-8010-0e9163e0947d>
+  PackagePath: ""
+  objects:
+    - !<own> 41a583e3-22a9-4536-a44d-dc3a6d2fe9d1
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/2c47b702-f9ea-44a5-808c-4b712470ea30>
+  PrefabRemaps:
+    []
+  Name: SyncTransform
+  Enabled: true
+  ScriptAsset: !<reference> f3c20594-375f-43d8-a93f-a8e75bd6a61d
+  ScriptInputsDefault:
+    networkIdTypeString: true
+    customNetworkId: true
+    positionSyncString: true
+    rotationSyncString: true
+    persistenceString: true
+    sendsPerSecondLimit: true
+    interpolationTarget: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      networkIdTypeString: objectId
+      customNetworkId: enter_unique_id
+      positionSyncString: Local
+      rotationSyncString: Local
+      scaleSyncString: None
+      persistenceString: Session
+      sendsPerSecondLimit: 10
+      useSmoothing: false
+      interpolationTarget: -0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/32bc41c1-bf9b-49e4-b881-98ae62046a74>
+  PrefabRemaps:
+    []
+  Name: PlayerExample
+  Enabled: true
+  ScriptAsset: !<reference> 2bdf0145-a8d6-4e24-a620-2464b63043eb
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      userTag: !<reference.Text> d204cbf6-f230-4255-97da-6ca0c0a0340f
+      cameraTarget: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/41a583e3-22a9-4536-a44d-dc3a6d2fe9d1>
+  PrefabRemaps:
+    - 2c47b702-f9ea-44a5-808c-4b712470ea30: 2c47b702-f9ea-44a5-7f73-b48edb8f15cf
+    - 32bc41c1-bf9b-49e4-b881-98ae62046a74: 32bc41c1-bf9b-49e4-477e-67519dfb958b
+    - 41a583e3-22a9-4536-a44d-dc3a6d2fe9d1: 41a583e3-22a9-4536-5bb2-23c592d0162e
+    - 5e066934-c15b-464d-9e0c-d50d9e288480: 5e066934-c15b-464d-61f3-2af261d77b7f
+    - a97019b9-4c19-437a-a1f3-90984a684d79: a97019b9-4c19-437a-5e0c-6f67b597b286
+    - d204cbf6-f230-4255-97da-6ca0c0a0340f: d204cbf6-f230-4255-6825-935f3f5fcbf0
+    - f9f8db26-7879-4815-aa22-63f94dccd2d6: f9f8db26-7879-4815-55dd-9c06b2332d29
+  Name: Avatar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f9f8db26-7879-4815-aa22-63f94dccd2d6
+  Components:
+    []
+- !<LookAtComponent/5e066934-c15b-464d-9e0c-d50d9e288480>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtPoint
+  AimVectors: ZAimYUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<SceneObject/a97019b9-4c19-437a-a1f3-90984a684d79>
+  PrefabRemaps:
+    []
+  Name: UserTag
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 20.000000, z: 0.000000}
+    Rotation: {x: -180.000000, y: -0.000005, z: -180.000000}
+    Scale: {x: 1.600000, y: 1.600000, z: 1.600000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d204cbf6-f230-4255-97da-6ca0c0a0340f
+    - !<own> 5e066934-c15b-464d-9e0c-d50d9e288480
+- !<Text/d204cbf6-f230-4255-97da-6ca0c0a0340f>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: UserTag
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  Font: !<reference> 68175b33-52be-485c-b4df-061776e451c6
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/f9f8db26-7879-4815-aa22-63f94dccd2d6>
+  PrefabRemaps:
+    []
+  Name: PlayerController
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a97019b9-4c19-437a-a1f3-90984a684d79
+  Components:
+    - !<own> 2c47b702-f9ea-44a5-808c-4b712470ea30
+    - !<own> 32bc41c1-bf9b-49e4-b881-98ae62046a74

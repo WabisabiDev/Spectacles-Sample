@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/5438099a-32b5-4039-b2a3-f85e08fff658>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d873aa06-f8e9-40cd-9c16-35b8f46818c8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d873aa06-f8e9-40cd-9c16-35b8f46818c8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5210cfd2-5139-41ac-87b6-165ad12e3c3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5210cfd2-5139-41ac-87b6-165ad12e3c3c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 23d3fb88-a144-46c3-9ae6-032f54adf27e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    nonOwnerComponents: false
+    ownerComponents: false
+    syncEntityScript: false
+    targetTypeString: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - targetTypeString: SyncEntity
+      syncEntityScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ownerComponents: !<MappingBased.AssignableType[]>
+        []
+      nonOwnerComponents: !<MappingBased.AssignableType_1[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"group_start", "label":"Entity Target"}'
+    - '// @input string targetTypeString = "SyncEntity" {"label":"Target Type", "widget":"combobox", "values":[{"label":"Sync Entity", "value":"SyncEntity"}, {"label":"Network Root", "value":"NetworkRoot"}]}'
+    - '// @input Component.ScriptComponent syncEntityScript {"showIf":"targetTypeString", "showIfValue":"SyncEntity"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @input AssignableType[] ownerComponents"
+    - "// @input AssignableType_1[] nonOwnerComponents"
